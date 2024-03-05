@@ -2,16 +2,17 @@ import Image from "next/image";
 import React from "react";
 import Logo from "@/assets/logo.svg";
 import Container from "./Container";
+import Search from "./Search";
 
 export default function Navbar() {
   return (
     <header className="flex items-center justify-around w-full h-20 bg-gray-800">
       <Container>
         <div className="flex flex-1 items-center justify-between ">
-          <div className="flex items-center">
-            <Image src={Logo} alt="Logo do RPG" />
-            <ul className="flex items-center gap-5">
-              <li>
+          <Image src={Logo} alt="Logo do RPG" />
+          <div className="flex items-center gap-[57px] pr-9">
+            <ul className="flex items-center gap-5 ">
+              <li className="">
                 <a href="#">Livros</a>
               </li>
               <li>
@@ -29,6 +30,7 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
+        <Search />
       </Container>
     </header>
   );
