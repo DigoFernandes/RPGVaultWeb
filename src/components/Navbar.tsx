@@ -16,25 +16,29 @@ export default function Navbar() {
           <div className="flex items-center gap-[57px] pr-9">
             <ul className="flex items-center gap-5 ">
               <li className="">
-                <a href="#">Download</a>
+                <a href="/download">Download</a>
               </li>
               <li>
-                <a href="#">Cadastro</a>
+                <a href="/cadastro">Cadastro</a>
               </li>
               <li>
-                <a href="#">Discord</a>
+                <a target="_blank" href="https://discord.gg/H3Bn5RNh">
+                  Discord
+                </a>
               </li>
               <li>
-                <a href="#">Ajuda</a>
+                <a href="/ajuda">Ajuda</a>
               </li>
             </ul>
           </div>
         </div>
       </Container>
-      <button className="flex items-center gap-4 bg-primary-blue h-20 pl-10 z-[1] ">
-        <Image src={IconUser} alt="Icon User" />
-        <span className="text-white font-bold">Acessar conta</span>
-      </button>
+      <a href="/login">
+        <button className="flex items-center gap-4 bg-primary-blue h-20 pl-10 z-[1] ">
+          <Image src={IconUser} alt="Icon User" />
+          <span className="text-white font-bold">Acessar conta</span>
+        </button>
+      </a>
     </header>
   );
 }
