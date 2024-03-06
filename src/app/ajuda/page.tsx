@@ -1,7 +1,11 @@
+import Container from '@/components/Container'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>ajuda</div>
+    
+    <Container>
+       <a href='#'>aas</a>
+    </Container>
   )
 }
