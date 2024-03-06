@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Logo from "@/assets/logo.svg";
+import IconUser from "@/assets/icon-user.svg";
 import Container from "./Container";
 import Search from "./Search";
 
@@ -15,16 +16,13 @@ export default function Navbar() {
           <div className="flex items-center gap-[57px] pr-9">
             <ul className="flex items-center gap-5 ">
               <li className="">
-                <a href="#">Livros</a>
+                <a href="#">Download</a>
               </li>
               <li>
-                <a href="#">Fichas</a>
+                <a href="#">Cadastro</a>
               </li>
               <li>
-                <a href="#">Anotações</a>
-              </li>
-              <li>
-                <a href="#">Upload</a>
+                <a href="#">Discord</a>
               </li>
               <li>
                 <a href="#">Ajuda</a>
@@ -32,8 +30,11 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        <Search />
       </Container>
+      <button className="flex items-center gap-4 bg-primary-blue h-20 pl-10 z-[1] ">
+        <Image src={IconUser} alt="Icon User" />
+        <span className="text-white font-bold">Acessar conta</span>
+      </button>
     </header>
   );
 }

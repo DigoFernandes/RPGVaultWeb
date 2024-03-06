@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "./Container";
-import LibraryImg from "@/assets/library.jpg";
+import DragonImg from "@/assets/Dragon.png";
 import Image from "next/image";
 
 export default function SectionHero() {
@@ -21,8 +21,8 @@ export default function SectionHero() {
           className="mt-18 ml-11" // Adicionando margem superior para separar a imagem do texto
           height={700}
           width={700}
-          src={LibraryImg}
-          alt="magic library"
+          src={DragonImg}
+          alt="magic dragon"
         />
       </Container>
     </section>
