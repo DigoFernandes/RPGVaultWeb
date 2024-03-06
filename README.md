@@ -16,7 +16,7 @@ O RPGVaultWeb é um projeto de site desenvolvido para complementar um aplicativo
 1. Faça um fork do repositório `RPGVaultWeb`.
 2. Clone o repositório forkado para sua máquina local.
    ```bash
-   git clone https://github.com/SEU_USUARIO/RPGVaultWeb.git
+   git clone https://github.com/DigoFernandes/RPGVaultWeb.git
    ```
 3. Crie uma branch para sua feature ou correção.
    ```bash
