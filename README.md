@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RPGVaultWeb
 
-## Getting Started
+## Descrição
+O RPGVaultWeb é um projeto de site desenvolvido para complementar um aplicativo de organização e backup de conteúdos de RPG (Role-Playing Game). O objetivo principal é fornecer uma interface simples e intuitiva para os usuários cadastrarem, pois será posteriormente acessado pelo aplicativo desktop. Atualmente, o projeto utiliza tecnologias como React, Next.js e Tailwind CSS.
 
-First, run the development server:
+## Funcionalidades
+- Cadastro de usuários
+- Integração com o aplicativo desktop para sincronização de dados
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
+- React
+- Next.js
+- Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Contribuir
+1. Faça um fork do repositório `RPGVaultWeb`.
+2. Clone o repositório forkado para sua máquina local.
+   ```bash
+   git clone https://github.com/"SEU_USUARIO"/RPGVaultWeb.git
+   ```
+3. Crie uma branch para sua feature ou correção.
+   ```bash
+   git checkout -b minha-feature
+   ```
+4. Faça suas alterações no código.
+5. Adicione e faça commit das suas alterações.
+   ```bash
+   git add .
+   git commit -m "Adicionando nova feature"
+   ```
+6. Faça o push das suas alterações para o repositório remoto.
+   ```bash
+   git push origin minha-feature
+   ```
+7. Abra um pull request no repositório original `RPGVaultWeb`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Aviso
+Este projeto ainda está em desenvolvimento e atualmente não possui um backend completo. O backend será implementado futuramente para fornecer funcionalidades adicionais e uma experiência mais completa aos usuários.
