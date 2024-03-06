@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         "color-prmary": "1E1E1E",
       },
+      
     },
   },
   plugins: [],

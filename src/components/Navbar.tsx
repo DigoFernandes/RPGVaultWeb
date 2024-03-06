@@ -6,10 +6,12 @@ import Search from "./Search";
 
 export default function Navbar() {
   return (
-    <header className="flex items-center justify-around w-full h-20 bg-gray-800">
+    <header className="flex items-center justify-around w-full h-20 bg-[#463F3A]">
       <Container>
         <div className="flex flex-1 items-center justify-between ">
-          <Image src={Logo} alt="Logo do RPG" />
+          <a href="/">
+            <Image src={Logo} alt="Logo do RPG" />
+          </a>
           <div className="flex items-center gap-[57px] pr-9">
             <ul className="flex items-center gap-5 ">
               <li className="">
