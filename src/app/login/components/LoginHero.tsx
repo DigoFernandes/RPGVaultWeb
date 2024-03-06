@@ -1,3 +1,4 @@
+import InputLogin from "@/app/cadastro/components/InputLogin";
 import React from "react";
 
 export default function LoginHero() {
@@ -15,7 +16,7 @@ export default function LoginHero() {
               className=" text-md font-extrabold text-blue-300"
             >
               {" "}
-              Crie uma conta
+              crie uma conta
             </a>
           </p>
         </div>
@@ -24,24 +25,10 @@ export default function LoginHero() {
           {/* inicio do input */}
           <div className="rounded-md shadow-sm -space-y-px ">
             <div>
-              <input
-                className="rounded-none block appearance-none relative w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md mb-2 focus:outline focus:ring-indigo-500 focus;border-indigo-500 focus:z-10"
-                placeholder="Insira seu email"
-                required
-                type="email"
-                name=""
-                id=""
-              />
+              <InputLogin placeHolder="Insira seu email" type="email" />
             </div>
             <div className="">
-              <input
-                className="rounded-none block appearance-none relative w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md mb-2 focus:outline focus:ring-indigo-500 focus;border-indigo-500 focus:z-10"
-                placeholder="Insira sua senha"
-                required
-                type="password"
-                name=""
-                id=""
-              />
+              <InputLogin placeHolder="Insira sua senha" type="password" />
             </div>
             {/* final do input */}
           </div>
@@ -71,8 +58,9 @@ export default function LoginHero() {
 
           {/* começo do botão */}
           <div className="">
-
-            <button className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-indigo-500">Logar</button>
+            <button className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2  focus:ring-indigo-500">
+              Logar
+            </button>
           </div>
           {/* fim do botão */}
         </form>
