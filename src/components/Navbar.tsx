@@ -33,12 +33,16 @@ export default function Navbar() {
           </div>
         </div>
       </Container>
-      <a href="/login">
-        <button className="flex items-center gap-4 bg-primary-blue h-20 pl-10 z-[1] ">
-          <Image src={IconUser} alt="Icon User" />
-          <span className="text-white font-bold">Acessar conta</span>
-        </button>
-      </a>
+      <div className="hover:text-indigo-400">
+        <a href="/login">
+          <button className=" flex items-center gap-4 bg-primary-blue h-20 pl-10 z-[1] ">
+            <Image src={IconUser} alt="Icon User" />
+            <span className=" text-white font-bold hover:text-indigo-400">
+              Acessar conta
+            </span>
+          </button>
+        </a>
+      </div>
     </header>
   );
 }
