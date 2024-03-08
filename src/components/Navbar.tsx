@@ -15,19 +15,19 @@ export default function Navbar() {
           </a>
           <div className="flex items-center gap-[57px] pr-9">
             <ul className="flex items-center gap-5 ">
-              <li className="">
+              <li className="hover:text-indigo-400">
                 <a href="/download">Download</a>
               </li>
-              <li>
+              <li className="hover:text-indigo-400">
                 <a href="/cadastro">Cadastro</a>
               </li>
-              <li>
+              <li className="hover:text-indigo-400">
+                <a href="/ajuda">Ajuda</a>
+              </li>
+              <li className="hover:text-indigo-400">
                 <a target="_blank" href="https://discord.gg/H3Bn5RNh">
                   Discord
                 </a>
-              </li>
-              <li>
-                <a href="/ajuda">Ajuda</a>
               </li>
             </ul>
           </div>

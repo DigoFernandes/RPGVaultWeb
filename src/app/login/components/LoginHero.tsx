@@ -13,7 +13,7 @@ export default function LoginHero() {
             Ou
             <a
               href="/cadastro"
-              className=" text-md font-extrabold text-blue-300"
+              className="hover:text-indigo-300 text-md font-extrabold text-blue-300"
             >
               {" "}
               crie uma conta

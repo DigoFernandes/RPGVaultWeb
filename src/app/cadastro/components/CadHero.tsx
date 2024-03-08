@@ -13,7 +13,7 @@ export default function CadHero() {
             Ou
             <a
               href="/login"
-              className=" text-md font-extrabold text-blue-300"
+              className="hover:text-indigo-300 text-md font-extrabold text-blue-300"
             >
               {" "}
               faça Login
@@ -24,6 +24,9 @@ export default function CadHero() {
         <form action="" className="mt-8 space-y-6">
           {/* inicio do input */}
           <div className="rounded-md shadow-sm -space-y-px ">
+            <div>
+              <InputLogin placeHolder="Insira seu nome de usuario" type="text" />
+            </div>
             <div>
               <InputLogin placeHolder="Insira seu email" type="email" />
             </div>
