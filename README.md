@@ -11,6 +11,10 @@ O RPGVaultWeb é um projeto de site desenvolvido para complementar um aplicativo
 - React
 - Next.js
 - Tailwind CSS
+## TODO
+
+- Criar um backend, possivelmemnte usando django.
+- Melhorar os componentes do react
 
 ## Como Contribuir
 1. Faça um fork do repositório `RPGVaultWeb`.
